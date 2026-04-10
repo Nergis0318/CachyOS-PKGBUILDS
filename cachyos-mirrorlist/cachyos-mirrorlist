@@ -68,3 +68,5 @@ Server = https://mirror.jura12.ru/repo/$arch/$repo
 Server = https://mirror.cachy-arch.ru/cachyos/repo/$arch/$repo
 ## Russia Mirror much thanks to wan666 from metrosg.ru
 Server = https://wan.metrosg.ru/cachyos/repo/$arch/$repo
+## South Korea Mirror much thanks to Nergis!
+Server = https://mirror.xeon.kr/cachyos/repo/$arch/$repo
