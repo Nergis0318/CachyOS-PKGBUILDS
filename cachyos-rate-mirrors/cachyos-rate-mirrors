@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (C) 2022-2025 CachyOS team
+# Copyright (C) 2022-2026 CachyOS team
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -106,7 +106,9 @@ force_ru_mirrors() {
     local mirror domain index
     local -a ru_mirrors=(
         'https://archlinux.gay/cachy/repo/$arch/$repo'
-        'https://mirror.yandex.ru/cachyos/repo/$arch/$repo'
+        'https://mirror.jura12.ru/repo/$arch/$repo'
+        'https://mirror.cachy-arch.ru/cachyos/repo/$arch/$repo'
+        'https://wan.metrosg.ru/cachyos/repo/$arch/$repo'
     )
 
     local -i line=1
@@ -131,7 +133,7 @@ if [ -n "$country" ]; then
     export RATE_MIRRORS_ENTRY_COUNTRY="$country"
 fi
 
-# China only tests its own mirrors, so disable neighbors 
+# China only tests its own mirrors, so disable neighbors
 # and increase the number of tested mirrors to get more results
 if [ "$country" = "CN" ]; then
     export RATE_MIRRORS_COUNTRY_NEIGHBORS_PER_COUNTRY=0
@@ -149,9 +151,9 @@ fi
 rate_repository_mirrors cachyos "${MIRRORS_DEFAULT_DIR}/cachyos-mirrorlist"
 
 # Always insert local mirrors as first due to blockings in RU region
-if [ "$country" = "RU" ]; then
-    force_ru_mirrors
-fi
+#if [ "$country" = "RU" ]; then
+#    force_ru_mirrors
+#fi
 
 install -m 0644 --backup=simple --suffix="-backup" "${MIRRORS_DEFAULT_DIR}/cachyos-mirrorlist" \
     "${MIRRORS_DEFAULT_DIR}/cachyos-v3-mirrorlist"
