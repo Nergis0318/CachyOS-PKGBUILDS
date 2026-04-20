@@ -11,32 +11,12 @@ makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
 sha512sums=('6c2bd71c28a81c7cd5af624ba3f988c995553b7f7def59292fe3ef63e88834d140d09f9c4b33011b28849b1a4524a23fdd4067df67ebe327830426876e0c4583')
 depends=(
-  cachyos-wallpapers
-  capitaine-cursors
-  gnome-autoar
-  gnome-backgrounds
-  gnome-bluetooth-3.0
-  gnome-calculator
-  gnome-color-manager
+  adw-gtk-theme
   gnome-control-center
-  gnome-desktop
-  gnome-desktop-4
-  gnome-desktop-common
-  gnome-disk-utility
-  gnome-firmware
   gnome-keyring
-  gnome-online-accounts
-  gnome-screenshot
   gnome-session
   gnome-settings-daemon
   gnome-shell
-  gnome-system-monitor
-  gnome-terminal
-  gnome-themes-extra
-  gnome-tweaks
-  kvantum
-  kvantum-theme-libadwaita-git
-  qt5ct
 )
 install=$pkgname.install
 provides=('cachyos-desktop-settings')
