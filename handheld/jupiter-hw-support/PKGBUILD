@@ -1,7 +1,7 @@
 # Maintainer: Peter Jung <admin@ptr1337.dev>
 
 pkgname=jupiter-hw-support
-pkgver=20260211.1
+pkgver=20260327.1
 pkgrel=3
 arch=('any')
 license=('MIT')
@@ -27,12 +27,12 @@ source=("git+https://github.com/evlaV/jupiter-hw-support.git#tag=jupiter-${pkgve
         "cachyos-bios.patch")
 #install="$pkgname.install"
 options=(!strip !debug)
-sha256sums=('f31be3945132f3966da89dbe3f583ce9a3f8343da2ade6c464a51cddf684f174'
+sha256sums=('2d6ba9efdba8367c998df748b2572feb176efb5b7c132707758f7fb7670b1238'
             'fe064240bf77dabfa4d161b10c33c82385a0ca22a49350e70ab9301b0e98dc7b'
             'c7db0e977fb0c3a1526b8482e349f73304fc6397d7337c48fe0c990bde64412c'
             'd6b5636eb09d2190b10eb665238c30960babba96424fc9768e36966495fa795e'
             'd3098f26eaa26d9eccfedeac792e47a03317bdd16b17ba03be0fbd1ed6621c5d'
-            '0d4660622887a360bef8f913e7bbd47ac262632acff503a3ca8cecbb6f4a943d')
+            'f3ca66a1b9ef5d929e925c0a8a07e91d0d7874e47cc549297480bdcf9cb15237')
 prepare() {
   cd "${pkgname}"
 

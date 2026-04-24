@@ -1,6 +1,6 @@
 pkgbase = jupiter-hw-support
 	pkgdesc = CachyOS - Deckify Steam Deck HW Support
-	pkgver = 20260211.1
+	pkgver = 20260327.1
 	pkgrel = 3
 	arch = any
 	license = MIT
@@ -23,17 +23,17 @@ pkgbase = jupiter-hw-support
 	optdepends = grub-steamos
 	options = !strip
 	options = !debug
-	source = git+https://github.com/evlaV/jupiter-hw-support.git#tag=jupiter-20260211.1
+	source = git+https://github.com/evlaV/jupiter-hw-support.git#tag=jupiter-20260327.1
 	source = steamos-btrfs-automount.patch
 	source = cachyos-automount.patch
 	source = udev-automount-rules.patch
 	source = priv-write.patch
 	source = cachyos-bios.patch
-	sha256sums = f31be3945132f3966da89dbe3f583ce9a3f8343da2ade6c464a51cddf684f174
+	sha256sums = 2d6ba9efdba8367c998df748b2572feb176efb5b7c132707758f7fb7670b1238
 	sha256sums = fe064240bf77dabfa4d161b10c33c82385a0ca22a49350e70ab9301b0e98dc7b
 	sha256sums = c7db0e977fb0c3a1526b8482e349f73304fc6397d7337c48fe0c990bde64412c
 	sha256sums = d6b5636eb09d2190b10eb665238c30960babba96424fc9768e36966495fa795e
 	sha256sums = d3098f26eaa26d9eccfedeac792e47a03317bdd16b17ba03be0fbd1ed6621c5d
-	sha256sums = 0d4660622887a360bef8f913e7bbd47ac262632acff503a3ca8cecbb6f4a943d
+	sha256sums = f3ca66a1b9ef5d929e925c0a8a07e91d0d7874e47cc549297480bdcf9cb15237
 
 pkgname = jupiter-hw-support
