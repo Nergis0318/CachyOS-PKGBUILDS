@@ -30,7 +30,7 @@ Server = https://mirror.zyner.org/mirror/cachyos/repo/$arch/$repo
 ## South Korea much thanks to Mihate Hiura!
 # Server = https://mirror.funami.tech/cachy/repo/$arch/$repo
 ## Ukrainian mirror provided by DistroHub
-# Server = https://distrohub.kyiv.ua/cachyos/repo/$arch/$repo
+Server = https://distrohub.kyiv.ua/cachyos/repo/$arch/$repo
 ## Austria Mirror much thanks to Soulharsh!
 Server = https://at.cachyos.org/repo/$arch/$repo
 ## Germany Mirror much thanks to Soulharsh!
@@ -48,8 +48,6 @@ Server = https://mirror.nju.edu.cn/cachyos/repo/$arch/$repo
 Server = https://mirrors.ustc.edu.cn/cachyos/repo/$arch/$repo
 ## Hong Kong Mirror much thanks to Saren!
 # Server = https://cachy-mirror.wtako.net/repo/$arch/$repo
-## Quebec, Canada Mirror from All Things Linux
-Server = https://mirror.allthingslinux.org/cachyos/repo/$arch/$repo
 ## Italy Mirror much thanks to NextWorks!
 Server = https://cachyos.next-works.it/repo/$arch/$repo
 ## Italy Mirror much thanks to ironashram!
@@ -72,3 +70,12 @@ Server = https://mirror.cachy-arch.ru/cachyos/repo/$arch/$repo
 Server = https://wan.metrosg.ru/cachyos/repo/$arch/$repo
 ## South Korea Mirror much thanks to Nergis!
 Server = https://mirror.xeon.kr/cachyos/repo/$arch/$repo
+## Republic of Korea Mirror much thanks to Keiminem from Keiverse
+Server = https://mirror.keiminem.com/cachyos/repo/$arch/$repo
+Server = https://mirror2.keiminem.com/cachyos/repo/$arch/$repo
+## Republic of Korea Mirror much thanks to Hemino
+#Server = https://mirror.hemino.net/cachyos/repo/$arch/$repo
+## Republic of Korea Mirror much thanks to X and parkard from ROKFOSS
+#Server = https://mirror.krfoss.org/cachyos/repo/$arch/$repo
+#Server = https://mirror4.krfoss.org/cachyos/repo/$arch/$repo
+#Server = https://mirrors.krfoss.org/cachyos/repo/$arch/$repo
